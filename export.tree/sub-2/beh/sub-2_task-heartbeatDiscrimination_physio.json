@@ -1,0 +1,48 @@
+{
+    "SamplingFrequency": 2000.0,
+    "StartTime": 0.0,
+    "Columns": [
+        "timestamp",
+        "ecg",
+        "icg",
+        "stethescope",
+        "trigger"
+    ],
+    "PhysioType": "generic",
+    "Manufacturer": "Biopac",
+    "ManufacturersModelName": "MP150",
+    "SoftwareVersions": "AcqKnowledge",
+    "line_freq": 60.0,
+    "timestamp": {
+        "Description": "Time elapsed since start of recording, disregarding any discontinuities if present (see participants.tsv)",
+        "Units": "seconds"
+    },
+    "ecg": {
+        "Description": "Lead II electrocardiogram measurement collected with ECG100C module",
+        "Units": "mV",
+        "low_cutoff": 0.5,
+        "high_cutoff": 35.0,
+        "notch": 60.0,
+        "gain": 1000.0
+    },
+    "icg": {
+        "Description": "Thoracic impedance magnitude (Zo) collected with EBI100C module, with inner spot electrodes on jugular notch & xiphoid process and outer electrodes on spine",
+        "Units": "ohms",
+        "low_cutoff": "n/a",
+        "high_cutoff": 10.0,
+        "carrier_freq_kHz": 50.0,
+        "magnitude_range_OhmPerVolt": 5.0
+    },
+    "stethescope": {
+        "Description": "Heart sounds recorded using DA100C module and Biopac TSD108 contact microphone as stethescope, placed on Aortic auscultation area (right 2nd ICS)",
+        "Units": "Volts",
+        "low_cutoff": 0.05,
+        "high_cutoff": 300.0,
+        "notch": "n/a",
+        "gain": 50.0
+    },
+    "trigger": {
+        "Description": "Voltage from LabJack U6 communicated event timing information from experiment control computer. Voltage was set to 1 during baseline periods, 2 during synchrony trials, and 3 during delay trials; set to 0 otherwise.",
+        "Units": "Volts"
+    }
+}
