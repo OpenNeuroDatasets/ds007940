@@ -1,0 +1,15 @@
+{
+    "Name": "Delayed Auditory Feedback of Heart Sounds",
+    "BIDSVersion": "1.11.1",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "John P. Veillette",
+        "Mia Bocian",
+        "Howard C. Nusbaum"
+    ],
+    "EthicsApprovals": [
+        "University of Chicago Social & Behavioral Sciences IRB25-1538"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007940.v1.0.2"
+}
