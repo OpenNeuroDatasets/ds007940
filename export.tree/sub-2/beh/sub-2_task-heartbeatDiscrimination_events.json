@@ -1,0 +1,14 @@
+{
+    "trial": {
+        "Description": "The trial number event is associated with"
+    },
+    "event": {
+        "Description": "The type of event. During 'baseline', participant hears pink noise. During 'heartbeat', the participant hears their own heart sounds."
+    },
+    "delay": {
+        "Description": "The added delay with which participants' heart sounds are played back to them on this trial. Note that there is an intrinsic hardware delay of about 8ms in addition to this imposed delay."
+    },
+    "response": {
+        "Description": "Participants were asked, after each trial, to judge whether heart sounds were synchronous or delayed relative to their actual heartbeat."
+    }
+}
